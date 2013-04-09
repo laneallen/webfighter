@@ -9,7 +9,6 @@ css/install-button.css
 
 js/lib/../app.js
 ----------------
-js/lib/receiptverifier.js
 js/lib/install.js
 js/lib/../install-button.js
 js/lib/../math.js
