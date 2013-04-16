@@ -19,12 +19,79 @@
     <div id="size-wrapper">
       <canvas id="canvas"></canvas>
 
+      <div id="start-screen">
+        <div class="title">
+          <img src="/img/logo-ship.png" />
+          <h1>Webfighter</h1>
+        </div>
+
+        <div class="buttons">
+          <button id="play">Play</button>
+          <button id="store">Store</button>
+        </div>
+      </div>
+
+      <div id="store-screen">
+        
+        <button class="back">Back to Title</button>
+
+        <div class="item">
+          <div class="content">
+            <img src="/img/logo-ship.png" />
+            <h2>Red Ship</h2>
+            <div class="desc">
+              This ship enhances your awesome power.
+            </div>
+          </div>
+
+          <div class="purchase">
+            $0.99
+
+            <div><button>Buy</button></div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content">
+            <img src="/img/logo-ship.png" />
+            <h2>Red Ship</h2>
+            <div class="desc">
+              This ship enhances your awesome power.
+            </div>
+          </div>
+
+          <div class="purchase">
+            $0.99
+            <button class="button buy">Buy</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="content">
+            <img src="/img/logo-ship.png" />
+            <h2>Red Ship</h2>
+            <div class="desc">
+              This ship enhances your awesome power.
+            </div>
+          </div>
+
+          <div class="purchase">
+            $0.99
+            <button class="button buy">Buy</button>
+          </div>
+        </div>
+
+        <button class="back">Back to Title</button>
+      </div>
+
+
       <div id="game-over-overlay">
       </div>
 
       <div id="game-over">
         <h1 class="message"></h1>
         <button id="play-again">Play Again</button>
+        <button id="back-title">Back to Title</button>
       </div>
 
       <div id="appbar">
@@ -36,9 +103,11 @@
         <div class="life">Life: <span></span></div>
       </div>
 
-      <div class="input dpad"></div>
-      <div class="input fire"></div>
-      <div class="debug"></div>
+      <div id="controls">
+        <div class="input dpad"></div>
+        <div class="input fire"></div>
+        <div class="debug"></div>
+      </div>
     </div>
 
     <!-- Using require.js, a module system for javascript, include the
